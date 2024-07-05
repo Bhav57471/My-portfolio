@@ -1,0 +1,53 @@
+.biography-section {
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #813074;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .card li {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+      margin: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .card h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card li {
+      font-size: 0.9rem;
+    }
+  }
+  

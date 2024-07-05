@@ -1,0 +1,46 @@
+.projects-section {
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .project-card {
+    background-color: #813074;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 45%;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-card {
+      padding: 10px;
+    }
+  
+    .project-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .project-card p {
+      font-size: 0.9rem;
+    }
+  }
+  

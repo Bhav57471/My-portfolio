@@ -1,0 +1,53 @@
+.footer {
+    background-color: rgb(59, 55, 59);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-github {
+    background: #3d4453;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #f18bf5;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .fa {
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  
+  
